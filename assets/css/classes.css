@@ -1,0 +1,26 @@
+.main-bg{
+    background-image: url('../img/main-bg.svg');/*imagem de fundo*/
+    background-size: cover;
+    background-position: center center; /*imagem de fundo vai mudando de acordo com o tamanho da página*/
+    color: var(--white-color);   
+}
+.white-bg{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+.main-content{
+    max-width: 120rem;/*largura máxima da pagina*/
+    margin: 0 auto;/*dá uma margem nas bordas*/
+    padding: 10rem var(--gap);
+}
+.section{
+    min-height: 100vh;/*ocupa toda o tamanho da página*/
+}
+.menu-spacing{
+    height: 65px;
+}
+body .full-width{/*deixar o form message em uma linha separado*/
+    width: 100%;
+    flex: 1 1 100%
+}
+
